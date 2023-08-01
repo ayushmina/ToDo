@@ -96,7 +96,7 @@ let curd = {
       } else {
         return universalFunctions.sendSuccess(
           {
-            statusCode: 200,
+            statusCode: 400,
             message: "no tasks Successfull",
             data: tasks,
           },
@@ -123,7 +123,7 @@ let curd = {
         return universalFunctions.sendSuccess(
           {
             statusCode: 200,
-            message: "Task not found",
+            message: "Task delete succ",
             data: taskIndex,
           },
           res
@@ -170,7 +170,7 @@ let curd = {
 
       return universalFunctions.sendSuccess(
         {
-          statusCode: 400,
+          statusCode: 200,
           message: "Task  update ",
           data: task,
         },
