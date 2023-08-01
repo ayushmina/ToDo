@@ -9,7 +9,6 @@ The Todo List Application is a simple API that allows users to manage their task
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -68,8 +67,6 @@ Contributions to this project are welcome. If you find any issues or have sugges
 4. Make your changes and commit them with descriptive commit messages.
 5. Push your changes to your branch.
 6. Create a pull request on the original repository, explaining your changes.
-
-## License
 
 
 ---
