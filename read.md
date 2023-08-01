@@ -25,7 +25,7 @@ The Todo List Application is a simple API that allows users to manage their task
 1. Clone this repository to your local machine using:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/ayushmina/ToDo.git
    ```
 
 2. Navigate to the project directory:
@@ -55,10 +55,10 @@ The Todo List Application is a simple API that allows users to manage their task
 The Todo List Application provides the following API endpoints:
 
 - **GET** `/tasks`: Fetch all tasks.
-- **GET** `/tasks/:id`: Fetch a single task by its ID.
+- **post** `/gettask`: Fetch a single task by its ID ( Accepts,`id`) .
 - **POST** `/tasks`: Create a new task. (Requires `title` and `description` in the request body)
-- **PUT** `/tasks/:id`: Update an existing task by its ID. (Accepts `title`, `description`, and `completed` in the request body)
-- **DELETE** `/tasks/:id`: Delete a task by its ID.
+- **post** `/updateTask`: Update an existing task by its ID. (Accepts,`id` `title`, `description`, and `completed` in the request body)
+- **post** `deleteTask`: Delete a task by its ID.
 
 ## Contributing
 
@@ -73,8 +73,5 @@ Contributions to this project are welcome. If you find any issues or have sugges
 
 ## License
 
-The Todo List Application is open-source software licensed under the [MIT License](LICENSE.md).
 
 ---
-
-This is just a template README file. Feel free to modify it according to your actual implementation, add more details, or include specific instructions on how to use the API in your project.
