@@ -1,5 +1,3 @@
-Sure! Here's a sample `README.md` file for the Todo List application:
-
 # Todo List Application
 
 The Todo List Application is a simple API that allows users to manage their tasks. It provides basic CRUD operations for tasks and stores them in memory using a JavaScript array. This application is built using Node.js and Express.
